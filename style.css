@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Retro Sans';
+    src: url('retro_sans.ttf') format('truetype');
+  }
+
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Retro Sans';
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 12px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav h1 b {
+    color: rgb(0, 255, 0);
+}
+
+nav h1 g {
+    color: rgb(229, 255, 0);
+}
+
+img {
+    height: 155px;
+}
+
+
+p {
+    margin: 3px;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 20px;
+    border-top: 1px solid white;
+}
